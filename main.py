@@ -36,7 +36,8 @@ if correctanswer == True:
       correctanswer = False
 
 if correctanswer == True:
-#level 2
+  print('You made it to the cafeteria! Now go through the double doors so you can get to the main hall!')
+
   doornumber = input('Choose a number for the three doors: ')
 
   if doornumber == "1":
@@ -47,7 +48,6 @@ if correctanswer == True:
     else:
       print("Wrong answer! Oh no, the teacher caught you! time for detention :-(") 
       correctanswer = False
-      print('You made it to the cafeteria! Now go through the double doors so you can get to the main hall!')
 
   elif doornumber == "2":
     print('Who discovered penicillin?')
@@ -57,9 +57,6 @@ if correctanswer == True:
     else:
       print("Wrong Answer! Oh no, the teacher caught you! time for detention :-(")
       correctanswer = False
-      print()
-
-
 
   elif doornumber == "3":
     print('What part of the atom has no electric charge?')
